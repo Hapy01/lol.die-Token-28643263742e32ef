@@ -1,0 +1,36 @@
+local args = {
+    [1] = workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP
+}
+
+workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+wait(0.5)
+
+local args = {
+    [1] = workspace.Prison_ITEMS.giver.M9.ITEMPICKUP
+}
+space.Remote.ItemHandler:InvokeServer(unpack(args))
+
+wait(0.5)
+
+local args = {
+    [1] = workspace.Prison_ITEMS.giver.M4A1.ITEMPICKUP
+}
+
+workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+wait(0.5)
+
+local args = {
+    [1] = workspace.Prison_ITEMS.giver["Riot Shield"].ITEMPICKUP
+}
+
+workspace.Remote.ItemHandler:InvokeServer(unpack(args))
+
+wait(0.5)
+
+local args = {
+    [1] = workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP
+}
+
+workspace.Remote.ItemHandler:InvokeServer(unpack(args))
